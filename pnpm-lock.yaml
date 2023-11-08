@@ -8,6 +8,9 @@ dependencies:
   '@t3-oss/env-nextjs':
     specifier: ^0.7.0
     version: 0.7.1(typescript@5.2.2)(zod@3.22.4)
+  '@types/proj4':
+    specifier: ^2.5.4
+    version: 2.5.4
   next:
     specifier: ^14.0.0
     version: 14.0.1(react-dom@18.2.0)(react@18.2.0)
@@ -20,6 +23,9 @@ dependencies:
   react-dom:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
+  react-hook-form:
+    specifier: ^7.48.2
+    version: 7.48.2(react@18.2.0)
   zod:
     specifier: ^3.22.4
     version: 3.22.4
@@ -347,6 +353,10 @@ packages:
     dependencies:
       undici-types: 5.26.5
     dev: true
+
+  /@types/proj4@2.5.4:
+    resolution: {integrity: sha512-AAqZQKgOGuEmhlfLgues7anx0vcZg+0xKE8UggfVnWJSKk4xdVm+Rg1q2q7YmqoZS51BJ5jTcCyYQqIGdxa8FQ==}
+    dev: false
 
   /@types/prop-types@15.7.9:
     resolution: {integrity: sha512-n1yyPsugYNSmHgxDFjicaI2+gCNjsBck8UX9kuofAKlc0h1bL+20oSF72KeNaW2DUlesbEVCFgyV2dPGTiY42g==}
@@ -2289,6 +2299,15 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-hook-form@7.48.2(react@18.2.0):
+    resolution: {integrity: sha512-H0T2InFQb1hX7qKtDIZmvpU1Xfn/bdahWBN1fH19gSe4bBEqTfmlr7H3XWTaVtiK4/tpPaI1F3355GPMZYge+A==}
+    engines: {node: '>=12.22.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-is@16.13.1:

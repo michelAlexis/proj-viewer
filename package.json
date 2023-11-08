@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.7.0",
+    "@types/proj4": "^2.5.4",
     "next": "^14.0.0",
     "proj4": "^2.9.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.48.2",
     "zod": "^3.22.4"
   },
   "devDependencies": {
